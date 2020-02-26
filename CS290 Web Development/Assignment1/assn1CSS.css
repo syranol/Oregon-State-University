@@ -1,0 +1,23 @@
+#partOne td:nth-child(even){
+	color: red;
+}
+
+.outer-content{
+
+		margin-top: 20px;
+		background: pink;
+		width: 75%;
+		padding: 20px;
+}
+
+.inner-content{
+		background: lightblue;
+		width: 56.25%;
+		margin: auto;
+}
+
+.form{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}

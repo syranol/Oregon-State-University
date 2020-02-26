@@ -1,0 +1,1 @@
+READ MEDear Professor/TA,      To compile 5A, simply type g++ stoogesort.cpp and run ./a.out on terminal to process the file. It is set up the same as homework#1 in the way it reads data from data.txt and output to stooge.out. Thank you!Best,Sean

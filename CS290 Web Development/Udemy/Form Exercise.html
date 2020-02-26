@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Exercise: Slides</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+		<label for="FirstName">First Name:</label>
+		<input name="first" id="FirstName" type="text" placeholder="username" required>
+		<label for="LastName">Last Name:</label>
+		<input name="last" id="LastName" type="text" placeholder="password" required>
+
+	<div>
+		<label for="male">Male</label>
+		<input id="male" name="gender" value="male" type="radio" >
+
+		<label for="female">Female</label>
+		<input id="female" name="gender" value="female" type="radio" >
+
+		<label for="other">Other</label>
+		<input id="other" name="gender" value="other" type="radio" >
+	</div>
+
+	<div>
+		<label for="Email">Email:</label>
+		<input name="email" id="Email" type="email" placeholder="your email" required>
+
+		<label for="password">Password:</label>
+		<input name="password" id="password" type="password" placeholder="your password" pattern=".{5,10}" required title="5 to 10 characters">	
+	</div>
+
+	<div>
+		<label>
+			Birthday:
+			<select name="month">
+				<option>Month</option>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+			</select>
+
+			<select name="day">
+				<option>Day</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+			</select>
+
+			<select name="year">
+				<option>Year</option>
+				<option>1995</option>
+				<option>1996</option>
+				<option>1997</option>
+			</select>
+		</label>
+	</div>
+
+	<div>
+		<label for="agreement" name="agreement"> I agree to the terms and conidtions:</label>
+		<input name="Agreement" id="agreement" type="checkbox"> </input>
+	</div>
+		<button>Submit</button>
+	</form>
+</body>
+</html>

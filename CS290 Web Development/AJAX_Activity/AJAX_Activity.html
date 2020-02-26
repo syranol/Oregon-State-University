@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Activity: Ajax</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <div class="jumbotron" style="margin-bottom:0px; color:white; background-color: #4aa1f3";>
+      <h2 class="text-center" style="font-size:50px; font-weight:600;">Get Current Weather</h2>
+    </div>
+<!--
+    <form class="groupForm">
+-->
+    <div class="container">
+      
+      <div class="row" style="margin-bottom:20px;">
+        <h3 class="text-center text-primary">Enter City Name</h3>
+      </div>
+
+      <div class="row form-group form-inline" id="rowDiv">
+        <input type="text" name="city" id="city" class="form-control" placeholder="City Name">
+        <button id="submitWeather" class="btn btn-primary">Search City</button>
+      </div>
+
+      <div id="show"></div>
+
+       <div class="container">
+      
+      <div class="row" style="margin-bottom:20px;">
+        <h3 class="text-center text-primary">Enter Zip Code</h3>
+      </div>
+
+      <div class="row form-group form-inline" id="rowDiv">
+        <input type="text" name="zip" id="zip" class="form-control" placeholder="Zip Code">
+        <button id="submitWeatherZip" class="btn btn-primary">Search City</button>
+      </div>
+
+      <div id="showZip"></div>
+
+
+    </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+   </body>
+</html>
+
+<!--
+  //Credit. - This file contains information from an online tutorial 
+//https://www.youtube.com/watch?v=RM56i0bY00o&list=PLAEoBV_GLyq4klW-2Pm75_5-r4oHhwqlm
+-->
+
+
+    <h3>
+      Form:
+    </h3>
+    <div>
+      <h4>
+        Please fill this out
+      </h4>
+      <form >
+        <div >
+          <label> First Name:</label>
+          <div >
+            <input class="form-control" id="ifname" type="text" />
+          </div>
+        </div>
+        <div >
+          <label >Last Name:</label>
+          <div >
+            <input class="form-control" id="ilname" type="text" />
+          </div>
+        </div>
+        
+
+        <div>
+          <button class="btn btn-default" type="submit" id="submit">
+            Send
+          </button>
+        </div>
+
+
+
+      </form>
+    </div>
+    <div >
+      <h5>
+        Return:
+      </h5>
+      <form >
+        <div >
+          <label control-label" >First Name:</label>
+          <div class="col-sm-8">
+            <div id="ofname" class="form-control"></div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label control-label">Last Name:</label>
+          <div class="col-sm-8">
+            <div id="olname" class="form-control"></div>
+          </div>
+        </div>
+
+      </form>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>

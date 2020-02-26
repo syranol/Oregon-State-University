@@ -1,0 +1,32 @@
+{
+  "name": "361site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dbcon.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xavierh93/CS361TherapistTool.git"
+  },
+  "keywords": [
+    "361",
+    "therapist",
+    "tool"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xavierh93/CS361TherapistTool/issues"
+  },
+  "homepage": "https://github.com/Xavierh93/CS361TherapistTool#readme"
+}

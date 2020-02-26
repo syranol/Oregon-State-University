@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset='UTF-8' />
+  <title>CS361 Final Project - Therapist Search Tool</title>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <table id="therapistTable" class="table table-striped table-sm">
+      <thead class="thead thead-dark">
+        <tr>
+          <th scope="col">First Name</th>
+          <th scope="col">Last Name</th>
+          <th scope="col">Specialty</th>
+          <th scope="col">Years Practicing</th>
+          <th scope="col">Location</th>
+          <th scope="col">Email</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each therapist}}
+        <tr scope="row">
+          <td>{{fname}}</td>
+          <td>{{lname}}</td>
+          <td>{{spec}}</td>
+          <td>{{exp}}</td>
+          <td>{{loc}}</td>
+          <td>{{mail}}</td>
+          <td><a href="/search/{{therID}}">More Info</a></td>
+        </tr>
+        {{/each}}
+      </tbody>
+      <tfoot>
+        <tr scope="row">
+          <th class="tFooter">First Name</th>
+          <th class="tFooter">Last Name</th>
+          <th class="tFooter">Specialty</th>
+          <th class="tFooter">Years Practicing</th>
+          <th class="tFooter">Location</th>
+          <th class="tFooter">Email</th>
+          <th class="tFooter"></th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  <script src="/filter.js"></script>
+</body>
+
+</html>

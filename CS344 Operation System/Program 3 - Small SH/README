@@ -1,0 +1,6 @@
+Dear Professor/TA,
+
+	To run my smallsh program, simply type gcc -o smallsh smallsh.c and it should compile properly! Once it is compiled, it can be access via ./smallsh or with the testing script. Thank you and have a great day :)
+
+Best Regards,
+Sean

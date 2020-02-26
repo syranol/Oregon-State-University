@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pokemon Chart</title>
+	<link rel="stylesheet" type="text/css" href="assn1CSS.css">
+</head>
+<body>
+	<p>A Chart of information on some pokemons</p>
+	<table border="1">
+		<thead>
+			<tr>
+				<th></th>
+				<th>Name</th>
+				<th>Image</th>
+				<th>Type</th>
+				<th>Weakness</th>
+				<th>Evolves Into</th>
+			</tr>	
+		</thead>
+
+		<tbody id=partOne>
+			<!-- Bulbasaur -->
+			<tr>
+				<td><i>#001</i></td>
+				<td>Bulbasaur</td>
+				<td>
+					<img src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png">
+				</td>
+				<td>Grass/Poison</td>
+				<td>Fire/Flying/Ice/Psychic</td>
+				<td>
+					<a href="https://bulbapedia.bulbagarden.net/wiki/Ivysaur_(Pokémon)">Ivysaur</a>
+				 </td>
+			</tr>
+
+			<!-- Charmander -->
+			<tr>
+				<td><i>#004</i></td>
+				<td><i>Charmander</i></td>
+				<td>
+					<img src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png">
+				</td>
+				<td>Fire</td>
+				<td>Ground/Rock/Water</td>
+				<td>
+					<a href="http://pokemon.wikia.com/wiki/Charmeleon">Charmeleon</a>
+				</td>
+			</tr>
+
+			<!-- Squirtle -->
+			<tr>
+				<td><i>#007</i></td>
+				<td>Squirtle</td>
+				<td>
+					<img src="http://img1.wikia.nocookie.net/__cb20140328191525/pokemon/images/thumb/3/39/007Squirtle.png/200px-007Squirtle.png">
+				</td>
+				<td>Water</td>
+				<td>Electric/Grass</td>
+				<td>
+					<a href="http://pokemon.wikia.com/wiki/Wartortle">Wartortle</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td><i>#009</i></td>
+				<td>Caterpie</td>
+				<td>
+					<img width= "175" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png">
+				</td>
+				<td>Bug</td>
+				<td>Fire/Flying/Rock/td>
+				<td>
+					<a href="http://pokemon.wikia.com/wiki/Metapod">Metapod</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td><i>#016</i></td>
+				<td>Pidgey</td>
+				<td>
+					<img width="175" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png">
+				</td>
+				<td>Normal/Flying</td>
+				<td>Electric/Ice/Rock</td>
+				<td>
+					<a href="http://pokemon.wikia.com/wiki/Pidgeotto">Pidgeotto</a>
+				</td>
+			</tr>
+		</tbody>
+		
+		<footer>
+			<td colspan="2"> footer1 </td>
+			<td colspan="4"> footer2</td>
+		</footer>
+	</table>
+
+	<ul>
+		<h7>Starters?</h7>
+		<li>Yes - Bulbasaur, Charmander and Squirtle</li>
+		<li>No - Caterpie, Pidgey</li>
+		<li>Both - none</li>
+	</ul>
+
+	<div class="outer-content" >
+		<div class="inner-content">
+			<p> <center> Here is some content </center> </p>
+		</div>
+	</div>
+
+	<form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+
+		<div class="form">
+			<label for="text"> Text here: </label>
+			<input name="text_input" id="text" type="text" >
+		</div>
+
+    	<div class="form">
+			<label for="number"> Number here: </label>
+			<input type="numerical_input" id="number" type="number">
+		</div>
+
+		<div class="form">	
+			<label for="password"> Password here: </label>
+			<input type="password" id="password"name="password_input">
+		</div>
+
+		<div class="form">
+			<p>Select between:</p>
+			<input type="radio" name="candy">Snickers </input>
+			<br>
+			<br>
+			<input type="radio" name="candy">Skittles</input>
+			<br>
+			<br>
+			<input type="radio" name="candy">Mentos </input>
+			<br>
+			<br>
+			<button>Submit</button>
+		</div>
+	</form>
+
+	<form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+
+		<div class="form">
+			<label for="text"> Text here: </label>
+			<input name="text_input" id="text" type="text" >
+		</div>
+
+    	<div class="form">
+			<label for="number"> Number here: </label>
+			<input type="numerical_input" id="number" type="number">
+		</div>
+
+		<div class="form">	
+			<label for="password"> Password here: </label>
+			<input type="password" id="password"name="password_input">
+		</div>
+
+		<div class="form">
+			<p>Select between:</p>
+			<input type="radio" name="candy">Snickers </input>
+			<br>
+			<br>
+			<input type="radio" name="candy">Skittles</input>
+			<br>
+			<br>
+			<input type="radio" name="candy">Mentos </input>
+			<br>
+			<br>
+			<button>Submit</button>
+		</div>
+	</form>
+</body>
+</html>

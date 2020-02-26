@@ -1,0 +1,30 @@
+#rowDiv{
+	margin: auto;
+	text-align: center;
+	width: 60%;
+
+}
+
+#rowDiv2{
+	margin: auto;
+	text-align: center;
+	width: 60%;
+
+}
+
+input[type="text"]
+{
+	height: 40px;
+	font-size: 20px;
+}
+
+#submitWeather{
+	height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#show{
+	margin: auto;
+	text-align: : center;
+}
